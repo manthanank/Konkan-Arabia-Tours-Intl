@@ -321,9 +321,6 @@
 .icon-linkedin:before {
     content: "\e062";
 }
-.icon-dribbble:before {
-    content: "\e063";
-}
 .icon-box2:before {
     content: "\ea82";
 }
@@ -1571,12 +1568,6 @@
 }
 .icon-yelp:before {
     content: "\ea64";
-}
-.icon-dribbble-with-circle:before {
-    content: "\ea65";
-}
-.icon-dribbble2:before {
-    content: "\ea66";
 }
 .icon-facebook-with-circle:before {
     content: "\ea67";
@@ -2927,9 +2918,6 @@
 }
 .icon-flickr4:before {
     content: "\ec63";
-}
-.icon-dribbble3:before {
-    content: "\ec64";
 }
 .icon-behance2:before {
     content: "\ec65";
