@@ -390,6 +390,7 @@ figure {
   font-size: 25px;
   text-transform: uppercase;
   margin-top: 35px;
+  margin-bottom: 55px;
   margin-left: 5px;
   font-weight: 700;
   float: left;
@@ -398,7 +399,7 @@ figure {
 #fh5co-header-section img{
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50px;
   width: 130px;
   height: 85px;
 }
@@ -407,6 +408,13 @@ figure {
 }
 /* responsive */
 @media screen and (max-width: 768px) {
+  #fh5co-header-section img{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 130px;
+    height: 85px;
+  }
   #fh5co-logo h1 {
     font-size: 24px;
   }
@@ -2005,8 +2013,8 @@ div.cs-select span {
 .gototop{
   /* to the right of the right*/
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10px;
+  bottom: 10px;
   z-index: 999;
   background: #fff;
   width: 50px;
