@@ -223,12 +223,13 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc h1 {
     font-size: 3em;
-    color: rgb(41, 41, 38);
+    color: rgb(255, 255, 255);
     font-weight: bold;
   }
   .fh5co-cover .desc h3 {
-    color: rgb(41, 41, 38);
+    color: rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
+    font-display: inherit;
   }
 }
 .fh5co-cover .desc p {
@@ -1995,3 +1996,22 @@ div.cs-select span {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.gototop{
+  /* to the right of the right*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #000;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
