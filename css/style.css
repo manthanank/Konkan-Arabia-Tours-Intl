@@ -136,13 +136,21 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  height: 700px;
+  background-image: url(../images/dubai-img1.jpg);
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
     height: 700px;
   }
+  .fh5co-cover,
+.fh5co-hero {
+  position: relative;
+  height: 700px;
+  width: auto;
+  background-image: url(../images/dubai-img3.jpg);
+}
 }
 .fh5co-cover .fh5co-overlay,
 .fh5co-hero .fh5co-overlay {
@@ -153,14 +161,14 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(255, 62, 28, 0.5);
+  /* background: rgba(255, 62, 28, 0.5);
   background: -moz-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 62, 28, 0.5)), color-stop(100%, rgba(255, 140, 0, 0.5)));
   background: -webkit-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
   background: -o-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
   background: -ms-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
   background: linear-gradient(to right, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 ); */
 }
 
 .fh5co-cover {
@@ -169,7 +177,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -182,12 +190,12 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
 .fh5co-cover .desc {
-  top: 40%;
+  top: 25%;
   position: absolute;
   width: 100%;
   margin-top: -80px;
@@ -200,19 +208,28 @@ figure {
     padding-right: 15px;
   }
 }
-.fh5co-cover .desc h2 {
-  color: #fff;
+.fh5co-cover .desc h1 {
+  color: rgb(63, 62, 52);
   font-size: 60px;
   margin-bottom: 10px;
+  font-family: cursive;
   font-weight: 400 !important;
 }
-@media screen and (max-width: 768px) {
-  .fh5co-cover .desc h2 {
-    font-size: 40px;
-  }
-}
 .fh5co-cover .desc h3 {
-  color: #fff;
+  color: rgb(63, 62, 52);
+  font-family: cursive;
+  font-size: 2.5em;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-cover .desc h1 {
+    font-size: 3em;
+    color: rgb(41, 41, 38);
+    font-weight: bold;
+  }
+  .fh5co-cover .desc h3 {
+    color: rgb(41, 41, 38);
+    font-family: 'Times New Roman', Times, serif;
+  }
 }
 .fh5co-cover .desc p {
   display: block;
@@ -241,7 +258,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .desc .desc2 {
-    display: none;
+    display: block;
   }
 }
 
@@ -731,7 +748,7 @@ div.cs-select span {
   height: 2px;
   background: #F78536;
 }
-.heading-section h3 {
+.heading-section h2 {
   font-size: 40px;
   font-weight: 400;
   position: relative;
@@ -790,7 +807,7 @@ div.cs-select span {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.fh5co-tours > div .desc h3 {
+.fh5co-tours > div .desc h2 {
   color: #fff;
   margin: 0;
   padding: 0;
